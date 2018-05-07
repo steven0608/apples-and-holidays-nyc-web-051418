@@ -49,7 +49,6 @@ def all_winter_holiday_supplies(holiday_hash)
 winter_supplies=[]
 holiday_hash[:winter].collect do |holidays|
   holidays.each do |supply|
-    if holiday_hash[:winter][supply] != nil
       winter_supplies.concat(holiday_hash[:winter][supply])
     end
   end
