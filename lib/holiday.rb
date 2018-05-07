@@ -50,7 +50,10 @@ holiday_hash[:winter].collect do |holidays|
   holidays.each do |supply|
     if holiday_hash[:winter][supply] != nil
       holiday_hash[:winter][supply]
-
+    end
+  end
+end
+holiday_hash[:winter][supply]
 end
 
 def all_supplies_in_holidays(holiday_hash)
