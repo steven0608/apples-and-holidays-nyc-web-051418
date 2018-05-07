@@ -82,5 +82,5 @@ holiday_hash.collect do |season,holiday|
   holiday.collect do |holiday,supply|
     holiday if supply.include? ("BBQ")
   end
-end.flatten.impact
+end.flatten.compact
 end
