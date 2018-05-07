@@ -50,7 +50,7 @@ winter_supplies=[]
 holiday_hash[:winter].collect do |holidays|
   holidays.each do |supply|
       winter_supplies.concat(holiday_hash[:winter][supply])
-    end
+    
   end
 end
 winter_supplies
